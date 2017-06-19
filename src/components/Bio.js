@@ -5,6 +5,8 @@ import "typeface-montserrat"
 import "typeface-merriweather"
 
 import profilePic from "./profile-pic.jpg"
+import greenStar from "./green-star.png"
+import recentRoutes from "./recent-routes-arrow.png"
 import { rhythm } from "../utils/typography"
 
 class Bio extends React.Component {
@@ -17,6 +19,28 @@ class Bio extends React.Component {
       >
         <img
           src={profilePic}
+          alt={`Kyle Mathews`}
+          style={{
+            float: "left",
+            marginRight: rhythm(1 / 4),
+            marginBottom: 0,
+            width: rhythm(2),
+            height: rhythm(2),
+          }}
+        />
+        <img
+          src={greenStar}
+          alt={`Kyle Mathews`}
+          style={{
+            float: "left",
+            marginRight: rhythm(1 / 4),
+            marginBottom: 0,
+            width: rhythm(2),
+            height: rhythm(2),
+          }}
+        />
+        <img
+          src={recentRoutes}
           alt={`Kyle Mathews`}
           style={{
             float: "left",
